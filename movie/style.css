@@ -1,0 +1,66 @@
+/* .first{
+    background-color: aqua;
+    
+} */
+
+.title{
+    color: white;
+    padding-top: 16px;
+}
+.view{
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+ .second{
+    background-color: rgba(0, 0, 0, 0.034);
+    
+} 
+
+body{
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMTg2MzYzNzgzOF5BMl5BanBnXkFtZTgwOTg4NzQ4OTE@._V1_SX300.jpg'
+    );
+    background-size: cover;
+    background-clip: padding-box;
+    backface-visibility: hidden;
+}
+
+.list-group-item{
+    background-color:rgba(0, 0, 0, 0.014);
+    color: white;
+}
+.card{
+    background-color:rgba(0, 0, 0, 0.014);
+}
+.form-control{
+    background-color:rgba(0, 0, 0, 0);
+   
+}
+/* h1:hover{
+    color: #0069d9; 
+    animation: moveUp 0.2s ease-out;
+} */
+h2:hover{
+   color: #0069d9;
+   animation: moveUp 0.2s ease-out;
+   backface-visibility: hidden;
+
+}
+
+@keyframes moveUp{
+      
+         0% {
+      
+        transform: translateY(-0.2rem);
+        letter-spacing: 0.3rem; 
+    }
+        80% {
+      
+            transform: translateY(-0.1rem); }
+     
+        100% {
+        
+        transform: translateY(0rem); } 
+}
