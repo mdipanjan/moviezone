@@ -4,7 +4,9 @@ class Movie{
     }
 
     async getMovie(mov){
-        const movies = await fetch(` http://www.omdbapi.com/?t=${mov}&apikey=${this.client_key}`);
+        
+        let apiPath = 'https://www.omdbapi.com/?t';
+        const movies = await fetch(` ${apiPath}=${mov}&apikey=${this.client_key}`);
 
         const movieName = await movies.json();
 
